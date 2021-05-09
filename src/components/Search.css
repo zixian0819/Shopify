@@ -1,0 +1,26 @@
+.searchCss {
+  position: relative;
+}
+
+.searchCss input {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 5px 10px 5px 40px;
+  border-radius: 3px;
+}
+
+.searchCss .icon {
+  position: absolute;
+  /* border: 1px solid; */
+  height: 100%;
+  width: 15px;
+  background-position: center;
+  background-size: contain;
+  margin-left: 10px;
+  background-repeat: no-repeat;
+  /* margin-top: 5px; */
+}
+
+.searchCss .icon-search {
+  background-image: url('../assets/search.svg');
+}
